@@ -41,6 +41,8 @@ Post defaults (from `_config.yml`): layout `post`, comments enabled, TOC enabled
 
 **Date caution:** Do not set `date` in the future relative to the build time — Jekyll will skip future-dated posts unless configured otherwise. This has caused issues before (commit `0f8e5a2`).
 
+**时区注意:** GitHub Actions 构建环境使用 UTC 时区，而文章日期使用 `+0800`（北京时间）。如果文章日期设为当天（如 `2026-03-24 00:00:00 +0800`），在北京时间 08:00 之前触发的构建会将其视为未来文章而跳过。建议将当天发布的文章时间设为前一天或明确设置一个较早的时间点。
+
 ## Key Architecture
 
 - **Theme:** `jekyll-theme-chirpy` gem — layouts/includes/assets live in the gem, not in this repo. Override by placing files in the same relative path locally.
