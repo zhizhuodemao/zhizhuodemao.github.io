@@ -5,8 +5,6 @@ categories: [AI, Agent]
 tags: [agent, mcp, tool-design, claude-code]
 ---
 
-# Seeing like an Agent：大模型工具的设计指南
-
 > *"One of the hardest parts of building an agent harness is constructing its action space."*
 > *构建 Agent 框架最难的部分之一，是设计它的动作空间。*
 > *—— Anthropic, Lessons from Building Claude Code: Seeing like an Agent*
