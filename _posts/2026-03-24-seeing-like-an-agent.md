@@ -1,8 +1,8 @@
 ---
-title: "Seeing like an Agent：大模型工具的设计指南"
-date: 2026-03-24 10:00:00 +0800
+title: Seeing like an Agent：大模型工具的设计指南
+date: 2026-03-24 00:00:00 +0800
 categories: [AI, Agent]
-tags: [agent, mcp, tool-design, claude-code]
+tags: [ai, agent, mcp, 工具设计, claude-code]
 ---
 
 > *"One of the hardest parts of building an agent harness is constructing its action space."*
